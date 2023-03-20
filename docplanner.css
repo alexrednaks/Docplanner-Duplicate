@@ -364,6 +364,7 @@ a {
     margin-top: 100px;
     justify-content: center;
     gap: 100px;
+    margin-bottom: 200px;
     
 }
 
@@ -383,7 +384,7 @@ a {
     width: 50%;
     gap: 50px;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .infos-title {
@@ -394,21 +395,26 @@ a {
 .box_1 {
     background-color: white;
     padding: 20px;
+    border-radius: 7px;
 }
 
 .box_2 {
     background-color: white;
-    padding: 20px;
+    padding: 20px;   
+    border-radius: 7px;
+
 }
 
 .box_3 {
     background-color: white;
     padding: 20px;
+    border-radius: 7px;
 }
 
 .box_4 {
     background-color: white;
     padding: 20px;
+    border-radius: 7px;
 }
 
 .h3-titles {
@@ -426,3 +432,133 @@ a {
 .section-images {
     margin-left: 68px;
 }
+
+.section-logo {
+    margin-left: 115px;
+}
+
+
+
+
+
+
+
+
+/* start section 4 */
+.section4 {
+    margin: 0px 160px;
+}
+.text-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.section4 h2 {
+    font-size: 30px; 
+    line-height: 45px; 
+    font-family: Work Sans,Arial,sans-serif; 
+    margin: 80px 0px 30px; 
+    text-align: center;
+    font-weight: 50;
+}
+
+.section4 p {
+    font-size: 16px; 
+    font-weight: 300; 
+    line-height: 24px; 
+    color: #4e4c4cc4; 
+    text-align: center; 
+    margin-bottom: 60px;
+}
+
+.section4 .card {
+    transition: 0.5s;
+    text-align: left;
+}
+
+.section4 .card:hover {
+    box-shadow: 0px 0px 45px -10px;
+    transition: 0.5s;
+}
+
+.section4 .card h2 {
+    font-size: 20px; 
+    display: inline-block; 
+    margin: 10px 0px 10px 25px;
+}
+
+.section4 .card .btn {
+    background-color: #508FE2;
+    margin-bottom: 15px;
+    font-size: 14px; 
+    font-weight: bold; 
+    line-height: 24px;
+    position: absolute;
+    top: 305px;
+    right: 25px;
+}
+
+.section4 .card .btn:hover {
+    background-color: #0362df;
+}
+
+.section4 div .btn {
+    background-color: #508FE2;
+    margin-bottom: 15px;
+    font-size: 14px; 
+    font-weight: bold; 
+    line-height: 24px;
+}
+
+.section4 div .btn:hover {
+    background-color: #0362df;
+}
+.section4 .sounds {
+    text-align: center;
+}
+/* end section 4 */
+
+/* start footer */
+footer p {
+    text-align: center; 
+    font-size: 14px; 
+    line-height: 5px; 
+    margin: 45px 0px 25px; 
+    color: #4e4c4cc4;
+    margin: 25px 0px 8px;
+}
+
+.see-openings  {
+    margin-bottom: 50px;
+    padding: 12px;
+    background-color: #3d83df;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.see-openings:hover {
+    opacity: 0.6s;
+}
+
+.join-us {
+    color: #333;
+    font-weight: 50;
+}
+
+footer p a {
+    text-decoration: none;
+    font-size: 14px; 
+}
+
+footer p.foot {
+    text-align: center; 
+    font-size: 14px; 
+    line-height: 5px; 
+    color: #4e4c4cc4;
+    margin: 10px 0px 25px;
+}
+/* end footer */
