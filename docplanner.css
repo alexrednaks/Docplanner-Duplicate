@@ -5,6 +5,7 @@ body {
     color: #747474;
 }
 
+/*navbar section starts here*/
 
 .main-header {
     display: flex;
@@ -120,6 +121,10 @@ display: block;
     margin: auto;
     display: block;
 }
+
+/*navbar section ends here*/
+
+/*first section starts here*/
 
 h1 {
     color: #00b39b;
@@ -264,6 +269,11 @@ option {
     font-size: 14px;
 }
 
+/*first section ends here*/
+
+
+/* Links section starts here*/
+
 .Links {
     display: flex;
     zoom: 1;
@@ -354,6 +364,8 @@ option {
 a {
     background-color: transparent;
 }
+
+/*Links section ends here*/
 
 /*infos section starts here*/
 
